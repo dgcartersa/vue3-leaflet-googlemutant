@@ -1,40 +1,40 @@
 {
-  "name": "vue2-leaflet-googlemutant",
-  "version": "2.0.0",
-  "description": "googlemutant plugin extension for vue2-leaflet package",
-  "main": "dist/Vue2LeafletGoogleMutant.js",
+  "name": "vue3-leaflet-googlemutant",
+  "version": "3.0.0",
+  "description": "googlemutant plugin extension for @vue-leaflet/vue-leaflet package",
+  "main": "dist/Vue3LeafletGoogleMutant.js",
   "scripts": {
-    "build": "vue build Vue2LeafletGoogleMutant.vue --prod --lib --config build.config.js",
+    "build": "vue build Vue3LeafletGoogleMutant.vue --prod --lib --config build.config.js",
     "example": "vue build example.vue",
     "example-geojson": "vue build example-geojson.vue"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/jperelli/vue2-leaflet-googlemutant.git"
+    "url": "git+ssh://git@github.com/jperelli/vue3-leaflet-googlemutant.git"
   },
   "keywords": [
-    "vue2",
+    "vue3",
     "leaflet",
     "googlemutant"
   ],
-  "author": "Julián Perelli (http://jperelli.com.ar/)",
+  "author": "Darren Carter",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jperelli/vue2-leaflet-googlemutant/issues"
+    "url": "https://github.com/dgcartersa/vue3-leaflet-googlemutant/issues"
   },
-  "homepage": "https://github.com/jperelli/vue2-leaflet-googlemutant#readme",
+  "homepage": "https://github.com/dgcartersa/vue3-leaflet-googlemutant#readme",
   "dependencies": {},
   "devDependencies": {
     "babel-preset-env": "^1.6.0",
-    "leaflet": "^1.4.0",
-    "leaflet.gridlayer.googlemutant": "^0.8.0",
+    "leaflet": "^1.8.0",
+    "leaflet.gridlayer.googlemutant": "^0.13.5",
     "vue-cli": "~2.8.2",
-    "vue2-leaflet": "^2.1.1",
+    "@vue-leaflet/vue-leaflet": "^0.6.1",
     "webpack-node-externals": "^1.5.4"
   },
   "peerDependencies": {
-    "leaflet": "^1.4.0",
-    "leaflet.gridlayer.googlemutant": "^0.8.0",
-    "vue2-leaflet": "^2.1.1"
+    "leaflet": "^1.8.0",
+    "leaflet.gridlayer.googlemutant": "^0.13.5",
+    "@vue-leaflet/vue-leaflet": "^0.6.1"
   }
 }

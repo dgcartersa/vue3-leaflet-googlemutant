@@ -6,14 +6,14 @@
 
 <script>
   import { latLng } from 'leaflet'
-  import { LMap, LTileLayer } from 'vue2-leaflet'
-  import Vue2LeafletGoogleMutant from './Vue2LeafletGoogleMutant'
+  import { LMap, LTileLayer } from 'vue3-leaflet'
+  import Vue3LeafletGoogleMutant from './Vue3LeafletGoogleMutant'
 
   export default {
     components: {
       'v-map': LMap,
       'v-tilelayer': LTileLayer,
-      'v-tilelayer-googlemutant': Vue2LeafletGoogleMutant
+      'v-tilelayer-googlemutant': Vue3LeafletGoogleMutant
     },
     methods: {
     },

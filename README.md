@@ -1,6 +1,6 @@
-# vue2-leaflet-googlemutant
+# vue3-leaflet-googlemutant
 
-This is a [googlemutant plugin](https://gitlab.com/IvanSanchez/Leaflet.GridLayer.GoogleMutant) extension for [vue2-leaflet package](https://github.com/KoRiGaN/Vue2Leaflet)
+This is a [googlemutant plugin](https://gitlab.com/IvanSanchez/Leaflet.GridLayer.GoogleMutant) extension for [vue3-leaflet package](https://github.com/KoRiGaN/vue3Leaflet)
 
 ## Install
 
@@ -8,8 +8,8 @@ This is a [googlemutant plugin](https://gitlab.com/IvanSanchez/Leaflet.GridLayer
 
 ## Demo
 
-    git clone git@github.com:jperelli/vue2-leaflet-googlemutant.git
-    cd vue2-leaflet-googlemutant
+    git clone git@github.com:jperelli/vue3-leaflet-googlemutant.git
+    cd vue3-leaflet-googlemutant
     yarn
     yarn example
 
@@ -42,12 +42,12 @@ For available languages and regions, refer to Google Maps documentation on [loca
 
 In the same template file, at `<script>` part, this will make the component available only to the template in this file
 
-    import Vue2LeafletGoogleMutant from 'vue2-leaflet-googlemutant'
+    import vue3LeafletGoogleMutant from 'vue3-leaflet-googlemutant'
     ...
     export default {
       ...
       components: {
-        'v-tilelayer-googlemutant': Vue2LeafletGoogleMutant
+        'v-tilelayer-googlemutant': vue3LeafletGoogleMutant
         ...
       },
       ...
@@ -58,9 +58,9 @@ In the same template file, at `<script>` part, this will make the component avai
 At main Vue configuration, this will make the component available to all templates in your app
 
     import Vue from 'vue'
-    import Vue2LeafletGoogleMutant from 'vue2-leaflet-googlemutant'
+    import vue3LeafletGoogleMutant from 'vue3-leaflet-googlemutant'
     ...
-    Vue.component('v-tilelayer-googlemutant', Vue2LeafletGoogleMutant)
+    Vue.component('v-tilelayer-googlemutant', vue3LeafletGoogleMutant)
 
 ## Develop and build
 
